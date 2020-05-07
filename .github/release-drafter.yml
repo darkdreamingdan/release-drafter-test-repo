@@ -1,0 +1,19 @@
+name-template: '$RESOLVED_VERSION'
+tag-template: '$RESOLVED_VERSION'
+categories:
+  - title: '🚀 Added'
+    labels:
+      - 'Added'
+  - title: '🐛 Fixed'
+    labels:
+      - 'Fixed'
+  - title: '🧰 Updated'
+    label: 'Updated'
+change-template: '- $TITLE (#$NUMBER)'
+template: |
+  ## What’s Changed
+
+  $CHANGES
+
+  Previous Version: $PREVIOUS_TAG
+  Contributors: $CONTRIBUTORS
